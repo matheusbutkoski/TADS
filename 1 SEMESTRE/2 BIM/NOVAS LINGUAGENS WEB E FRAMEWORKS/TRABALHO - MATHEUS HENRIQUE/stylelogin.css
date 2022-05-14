@@ -1,0 +1,108 @@
+.container {
+	max-width: 500px;
+	text-align: center;
+	border: 2px solid #ccc;
+	margin-top: 100px;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-radius: 10px;
+	padding-top: 10px;
+
+}
+
+.row-input {
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 0px !important;
+	
+
+}
+
+.row-input {
+	font-size: 24px;
+	font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+
+}
+.row-input h4{
+	padding-top: 20px;
+}
+
+.row-recuperar{
+text-align: left;
+padding-top: 5px;
+color: #1a73e8;
+font-size: 14px;
+font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+
+
+}
+
+.row-recuperar label:hover {
+	cursor: pointer;
+
+}
+
+
+.row-descricao p {
+padding-top: 20px;
+text-align: left;
+font-size: 14px;
+color:#5f6368;
+padding-bottom: 10px;
+}
+
+.row-descricao b{
+	color: #1a73e8;
+}
+.row-descricao b:hover{
+	cursor: pointer;
+	color: black;
+}
+
+.width-form{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.button {
+
+	text-align:right;
+	padding-bottom: 25px;
+	padding-left: 125px;
+	font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+	
+
+}
+
+
+.row-criar{
+	text-align: left;
+	padding-right: 63px;
+	margin-top: 9px;
+	text-decoration: none;
+	color: #1a73e8; 
+	font-size: 15px;
+	padding-bottom: 20px;
+	font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+
+}
+.row-criar label:hover{
+	cursor: pointer;
+}
+
+
+.row-senha{
+	display: none;
+	padding-left: 2px;
+	
+}
+
+.row-mostrar {
+text-align: left;
+font-size: 15px;
+padding-left: 25px;
+padding-top: 10px;
+padding-bottom: 20px;
+}
+
+

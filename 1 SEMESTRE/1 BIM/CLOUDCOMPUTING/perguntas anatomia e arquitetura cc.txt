@@ -1,0 +1,52 @@
+Seguindo a lógica do texto, assinale qual informa a ordem crescente das camadas da arquitetura
+de uma nuvem.
+
+a - Usuário, Rede, Hardware e Gerenciamento
+
+b - Rede, Usuário, Hardware e Gerenciamento
+
+c* - Usuário, Rede, Gerenciamento e Hardware
+
+d - Hardware, Usuário, Gerenciamento e Rede
+
+
+Qual camada da anatomia de um CC permite o usuário desenvoLver e homologar suas próprias aplicações?
+
+a - Aplicações
+
+b* - Plataforma
+
+c - Infraestrutura
+
+d - Virtualização
+
+PG. 79
+
+
+
+
+De acordo com AMTI (2017) a virtualização:
+
+a* - Aumenta o desempenho do hardware e diminui os custos
+
+b - Aumenta o desempenho do hardware e aumenta os custos
+
+c - Diminui o desempenho do hardware e aumenta os custos
+
+d - Diminui o desempenho do hardware e diminui os custos
+
+PG. 80
+
+
+Qual camada da anatomai de um CC é responsável pelo armazenamento e processamento de dados?
+
+
+a - Plataforma
+
+b - Infraestrutura
+
+c - Virtualização
+
+d - Servidores/DataCenters
+
+

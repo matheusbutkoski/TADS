@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1652400907 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\src\data.cpp
+	"Data.h"
+
+1652400885 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\include\data.h
+
+1652400907 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\src\emprestimo.cpp
+	"Emprestimo.h"
+
+1652485223 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\include\emprestimo.h
+	"Data.h"
+	"Livro.h"
+	"Usuario.h"
+	<string>
+
+1652400907 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\src\livro.cpp
+	"Livro.h"
+
+1652472427 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\include\livro.h
+	<string>
+
+1652469330 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\src\usuario.cpp
+	"Usuario.h"
+	<iostream>
+	<string>
+
+1652478326 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\include\usuario.h
+	<string>
+
+1652484393 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\projeto biblioteca\projeto biblioteca\main.cpp
+	<iostream>
+	<string>
+	"Usuario.h"
+	"Emprestimo.h"
+	"Livro.h"
+

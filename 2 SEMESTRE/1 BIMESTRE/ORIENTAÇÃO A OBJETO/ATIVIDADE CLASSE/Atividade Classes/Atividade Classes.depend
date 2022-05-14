@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1650677950 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classe\atividade classes\src\data.cpp
+	"Data.h"
+
+1650677950 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classe\atividade classes\include\data.h
+
+1650684325 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classe\atividade classes\src\endereco.cpp
+	"Endereco.h"
+	<string>
+
+1650684312 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classe\atividade classes\include\endereco.h
+	<string>
+
+1650925063 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classe\atividade classes\main.cpp
+	<iostream>
+	<Data.h>
+	<Endereco.h>
+	<Pessoa.h>
+	<string>
+
+1651192213 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classe\atividade classes\src\pessoa.cpp
+	"Pessoa.h"
+	"Data.h"
+	"Endereco.h"
+	<string>
+
+1651193031 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classe\atividade classes\include\pessoa.h
+	"Data.h"
+	"Endereco.h"
+	<string>
+

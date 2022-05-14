@@ -1,0 +1,9 @@
+armazenamento para nuvem
+
+transitorio
+só é utilizado quando executado
+
+persistente
+persiste mesmo que a execução nao esteja ativa
+
+PROVA AULA 6, 7, 8

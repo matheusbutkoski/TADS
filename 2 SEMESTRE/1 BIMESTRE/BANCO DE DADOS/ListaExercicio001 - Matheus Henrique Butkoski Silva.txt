@@ -1,0 +1,109 @@
+create database biblioteca
+
+
+1,2,3,4,5,6-
+
+create table livros(
+id_livro int unique not null primary key,
+titulo varchar(45),
+id_editora int,
+id_autor int,
+id_estilo int
+);
+
+create table autores(
+id_autores int unique not null primary key,
+nome varchar(45),
+idade int
+);
+
+create table editoras(
+id_editora int unique not null primary key,
+nome varchar(45),
+telefone varchar(12)
+);
+
+create table estilos(
+id_estilo int unique not null primary key,
+nome varchar(45)
+);
+
+alter table livros
+add constraint fk_livros_autores foreign key (id_autores)
+references autores(id_autores); 
+
+alter table livros
+add constraint fk_livros_editoras foreign key (id_editora)
+references editoras(id_editora); 
+
+alter table livros
+add constraint fk_livros_estilos foreign key (id_estilo)
+references estilos(id_estilo); 
+
+create table leitor(
+id_leitor int unique not null primary key,
+nome varchar(45),
+telefone varchar(12),
+data_nascimento date
+);
+create table funcionario(
+id_funcionario int unique not null primary key,
+nome varchar(45),
+telefone varchar(12),
+data_nascimento date
+);
+
+create table emprestimo(
+id_emprestimo int unique not null primary key,
+id_funcionario int,
+prazo int
+id_livros int
+nome_leitor varchar(45)
+,
+
+constraint fk_emprestimofuncionario
+foreign key (id_funcionario) references funcionario(id_funcionario),
+
+constraint fk_emprestimolivro
+foreign key (ids_livros) references livros(id_livro)
+
+);
+
+7-
+
+insert into autores (id_autores, nome, idade)
+values (1, "Joao", 45), (2, "Maria", 50);
+
+insert into editoras (id_editora, nome, telefone)
+values (1, "Abril", 45112341234), (2, "Pearson", 45443214321);
+
+insert into estilos (id_estilo, nome)
+values (1, "Romance"), (2, "Comédia");
+
+insert into funcionario (id_funcionario, nome, telefone, data_nascimento)
+values (001, "Pedro", 45999505050, 28/06/1999), (002, "Marcos", 45999808080, 17/08/1995);
+
+insert into leitor (id_leitor, nome, telefone, data_nascimento)
+values (001, "Joana", 45660606060, 30/09/1994), (002, "Marcia", 45990909090, 06/04/1970);
+
+insert into livros(id_livro, id_autores, id_editora, id_estilo, titulo)
+values (001, 1, 2, 2, "HarryPotter"), (002, 2, 1, 1, "JogosVorazes");
+
+insert into emprestimo(id_emprestimo, id_funcionario, prazo, ids_livros, leitor)
+values (001, 001, 7, 001, "Pedro"), (002, 002, 7, 002, "Joana");
+
+8-
+
+delete from leitor
+where id_leitor = 001
+
+9-
+
+select id_autores, id_editora, id_estilo, titulo from livros
+
+10-
+
+select livros.titulo as "Titulos Livros", leitor as "Nome Leitor"
+from emprestimo
+inner join livros
+on livros.id_livro = emprestimo.id_emprestimo

@@ -1,0 +1,62 @@
+PROVA 22/09 SALA 106 BLOCO C
+
+Defina o que é: Requisito funcional, Requisito não funcional e Regra de Negócio
+
+Requisitos funcionais descrevem as funcionalidades que um sistema deve fornecer
+
+Requisitos não funcionais são aqueles que não dizem respeito as propriedades
+do sistema,como confiabilidade, tempo de resposta e espaço em disco. São mais críticos que os Requisitos Funcionais.
+
+Regras de negócio são premissas que um sistema deve possuir de acordo com
+o comportamento padrão dos usuários. É o que define a forma de fazer o negócio.
+
+Qual a principal finalidade/função do Documento de Requisitos do Sistema? 
+
+A documentação de requisitos lista todos os requisitos funcionais, requisitos não funcionais e regras de negocio
+ que um sistema deve possuir. É importante para definir as funções do sistema e estabelecer uma ordem de importância para os desenvolvedores.
+ 
+Qual a principal finalidade/função do Documento de Casos de Uso do Sistema?
+
+O Diagrama ou Documento de Casos de Uso é responsável por modelar todos os requisitos funcionais do sistema em formato de Diagrama.
+ Ele designa a cada ator certas interações com o sistema que formarão requisitos para que as interações possam ser concluídas. 
+ 
+ Em qual tipo de projeto de desenvolvimento de software que o modelo CASCATA poderia ser aplicado de forma eficiente?
+ 
+ O modelo Cascata é o mais antigo de todos os modelos que são usados atualmente, ele é composto por fases e uma só começa quando outra termina.
+
+Porém, o modelo Cascata possui diversos problemas, o cliente deve ter paciência, pois uma versão do software só estará disponível em um ponto
+ tardio do cronograma. Além disso, o modelo cascata gera muita documentação e sua codificação não pode ser antecipada. 
+
+Como no inicio do projeto é sempre difícil estabelecer todos os requisitos de um sistema, o modelo Cascata só deve ser aplicado e será
+ eficiente quando o cliente fornecer todos os requisitos na primeira fase , evitando complicações aos desenvolvedores no decorrer do projeto.
+ 
+ Quais as principais limitações do modelo de desenvolvimento Baseado em Componentes? Em qual cenário de desenvolvimento de software este modelo não irá gerar bons resultados?
+ 
+ O Modelo baseado em componentes baseia-se em em partes reusáveis. O processo de desenvolvimentos foca na integração dessas partes, ao invés de desenvolve-las do zero.
+
+Porém existem limitações como a falta de evolução de software, pois nem sempre as novas versões dos componentes utilizados para o desenvolvimento estão disponíveis na biblioteca da organização. Além disso, se torna difícil criar adequações no sistema.
+
+Resultados não satisfatórios seriam gerados em uma empresa que está passando por mudanças frequentes em sua composição e necessita adicionar ou alterar novas funções em seu sistema periodicamente .
+
+A metodologia ágil de desenvolvimento de software, surgiu e ganhou muita força nos últimos anos devido qual motivo?
+
+O mercado de desenvolvimento necessitava de mudanças para poder atender aos clientes de forma mais dinâmica, flexível e com aumento de produtividade. Devido a isso novas metodologias ágeis como o SCRUM surgiram,
+ para melhorar o serviço prestado em todos os âmbitos do desenvolvimento.
+ 
+ Quais são os 4 valores do Manifesto Ágil?
+ 
+Priorizar mais os indivíduos e as interações entre eles do que os processos e as ferramentas
+
+Priorizar mais o software funcionando do que uma documentação completa e abrangente
+
+Priorizar mais a colaboração com e dos clientes do que as negociações de contratos
+
+Priorizar mais respostas a mudanças do que seguir o plano inicial.
+
+Por que as Metodologias Ágeis geram uma melhor transparência e visibilidade da situação do projeto e possuem maior flexibilidade a mudanças e ajustes nos requisitos do projeto?
+
+Pois a comunicação com o cliente é frequente nessas metodologias, ele participa diretamente do desenvolvimento. Os usuário realizam testes contínuos e avaliam o que deve ser mudado.
+O que fortalece extremamente a transparência e visibilidade do andamento do projeto
+
+O software não é planejado como um todo, mas sim em forma sistêmica, o que facilita as mudanças e aumenta a flexibilidade do software 
+

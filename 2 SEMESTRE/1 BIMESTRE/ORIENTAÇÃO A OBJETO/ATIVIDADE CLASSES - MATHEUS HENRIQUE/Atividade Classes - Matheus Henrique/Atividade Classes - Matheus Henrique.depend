@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1651195044 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classes - matheus henrique\atividade classes - matheus henrique\src\data.cpp
+	"Data.h"
+
+1651193691 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classes - matheus henrique\atividade classes - matheus henrique\include\data.h
+
+1651195943 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classes - matheus henrique\atividade classes - matheus henrique\src\endereco.cpp
+	"Endereco.h"
+	<string>
+
+1651196056 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classes - matheus henrique\atividade classes - matheus henrique\include\endereco.h
+	<string>
+
+1651194971 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classes - matheus henrique\atividade classes - matheus henrique\src\pessoa.cpp
+	"Pessoa.h"
+	<string>
+	"Data.h"
+	"Endereco.h"
+
+1651194962 c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classes - matheus henrique\atividade classes - matheus henrique\include\pessoa.h
+	<string>
+	"Data.h"
+	"Endereco.h"
+
+1651196012 source:c:\users\mathe\onedrive\햞ea de trabalho\tads\2 semestre\1 bimestre\orienta플o a objeto\atividade classes - matheus henrique\atividade classes - matheus henrique\main.cpp
+	<iostream>
+	<string>
+	"Pessoa.h"
+	"Endereco.h"
+	"Data.h"
+

@@ -1,0 +1,26 @@
+INSTRUÇÃO DE REPETIÇÃO "ENQUANTO"
+
+- UTILIZADO PARA REPETIR UM BLOCO DE CÓDIGOS "ENQUANTO" SUA CONDIÇÃO RETORNAR VERDADE
+
+- PODE SER ESTRUTURADO DE DUAS FORMAS:
+* QUANDO SABE-SE A QUANTIDADE DE EXECUÇÕES
+* QUANDO O USUÁRIO DEFINE MOMENTO DE PARADA
+
+SINTAXE:
+
+enquanto (consdição) faca
+ //instruções
+
+fimenquanto
+
+1 - QUANTIDADE DE VEZES DEFINIDA
+x <- 1
+enquanto ( x <= 27 ) faca
+ escreval ("Informe a idade")
+  leia (idade)
+x <- x + 1
+
+1 - USUARIO DEFINE MOMENTO DE PARAR
+
+opcao <- "S"
+enquanto ( opcao = 

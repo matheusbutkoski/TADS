@@ -1,0 +1,83 @@
+body {
+font-family: Consolas;
+font-size: 25px;
+}
+
+
+input:checked + label{
+font-weight: bold;
+cursor: pointer;
+
+}
+
+.container {
+	max-width: 500px;
+	text-align: left;
+	border: 2px solid #ccc;
+	margin-top: 50px;
+	margin-left: 33%;
+	margin-right: 33%;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+
+}
+
+.row-title{
+padding-bottom: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.width-form{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.row-nome{
+font-size: 30px;
+font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+padding-bottom: 0px !important;
+border-radius: 10px;
+padding-left: 10px;
+
+
+}
+
+.form-control{
+    border: 2px solid #ced4da;
+    border-radius: 10px;
+    width: 55%;
+    
+}
+
+.button{
+    text-align:right;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+
+.reprovado{
+color: red;
+
+}
+
+.aprovado{
+color: green
+
+}
+
+.certo + label {
+color: green;
+font-weight: bold;
+}
+
+.errado + label {
+color:red;
+font-weight: bold;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questionário</title>
+
+
+  <link href="fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet" />
+  <link href="bootstrap.min.css" rel="stylesheet" />
+  <script src="jquery-3.6.0.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+  <script src="quest.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form-group">
+      <div class="row row-title">
+        <label>QUESTIONÁRIO</label>
+      </div>
+      <div class="col-md-12">
+        <div class="row row-nome">
+          <input type="text" class="form-control width-form" placeholder="Insira seu Nome">
+        </div>
+      </div>
+      <form>
+        <label>Quanto é 2+2?</label>
+        </br>
+        <input type="radio" id="quest1_opc_a" value="A" name="questao1">
+        <label for="quest1_opc_a">3</label>
+        </br>
+        <input type="radio" id="quest1_opc_b" value="B" name="questao1">
+        <label for="quest1_opc_b">4</label>
+        </br>
+        <input type="radio" id="quest1_opc_c" value="C" name="questao1">
+        <label for="quest1_opc_c">5</label>
+        </br>
+        <input type="radio" id="quest1_opc_d" value="D" name="questao1">
+
+        <label for="quest1_opc_d">6</label>
+        </br>
+        </br>
+        <label>Qual é meu nome?</label>
+        </br>
+        <input type="radio" id="quest2_opc_a" value="A" name="questao2">
+        <label for="quest2_opc_a">Jõao</label>
+        </br>
+        <input type="radio" id="quest2_opc_b" value="B" name="questao2">
+        <label for="quest2_opc_b">Matheus</label>
+        </br>
+        <input type="radio" id="quest3_opc_c" value="C" name="questao2">
+        <label for="quest2_opc_c">Tiago</label>
+        </br>
+        <input type="radio" id="quest4_opc_d" value="D" name="questao2">
+        <label for="quest2_opc_d">Marcos</label>
+        </br>
+        </br>
+        <label>Qual o maior número?</label>
+        </br>
+        <input type="radio" id=quest3_opc_a value="A" name="questao3">
+        <label for="quest3_opc_a">20</label>
+        </br>
+        <input type="radio" id=quest3_opc_b value="B" name="questao3">
+        <label for="quest3_opc_b">30</label>
+        </br>
+        <input type="radio" id=quest3_opc_c value="C" name="questao3">
+        <label for="quest3_opc_c">50</label>
+        </br>
+        <input type="radio" id=quest3_opc_d value="D" name="questao3">
+        <label for="quest3_opc_d">40</label>
+        </br>
+        </br>
+        <label>Selecione o valor aproximado de PI</label>
+        </br>
+        <input type="radio" id=quest4_opc_a value="A" name="questao4">
+        <label for="quest4_opc_a">3,17</label>
+        </br>
+        <input type="radio" id=quest4_opc_b value="B" name="questao4">
+        <label for="quest4_opc_b">3,15</label>
+        </br>
+        <input type="radio" id=quest4_opc_c value="C" name="questao4">
+        <label for="quest4_opc_c">3,16</label>
+        </br>
+        <input type="radio" id=quest4_opc_d value="D" name="questao4">
+        <label for="quest4_opc_d">3,14</label>
+        </br>
+        </br>
+        <label>Quanto é 2x3?</label>
+        <br />
+        <input type="radio" id="quest5_opc_a" value="A" name="questao5" />
+        <label for="quest5_opc_a">6</label>
+        <br />
+        <input type="radio" id="quest5_opc_b" value="B" name="questao5" />
+        <label for="quest5_opc_b">2</label>
+        <br />
+        <input type="radio" id="quest5_opc_c" value="C" name="questao5" />
+        <label for="quest5_opc_c">4</label>
+        </br>
+        <input type="radio" id="quest5_opc_d" value="D" name="questao5" />
+        <label for="quest5_opc_d">7</label>
+        <br />
+
+        <div class="col-md-12">
+          <div class="button">
+            <button class="btn btn-success"
+                    id=botao_corrigir
+                    type="button"
+                    onclick="efetuarCorrecao()">Corrigir</button>
+
+
+
+
+          </div>
+        </div>
+
+        <div id="div_resultado">
+
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

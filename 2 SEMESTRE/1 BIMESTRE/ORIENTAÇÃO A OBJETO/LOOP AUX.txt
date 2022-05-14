@@ -1,0 +1,23 @@
+ if(aux == 1){
+
+                for(int i=0;i<count;i++){
+                    if(cursoAluno != alunos[i].getCurso()){
+
+                        contAlunos=0;
+                        mediaIdade=0;
+
+                        cursoAluno = alunos[i].getCurso();
+                            for(int j=0;j<count;j++){
+                            if(cursoAluno == alunos[j].getCurso()){
+                            contAlunos++;
+                            mediaIdade = mediaIdade + alunos[j].getIdade();
+                            
+                            }
+                        }
+                    }
+                }
+                cout << "Curso: " << cursoAluno << endl;
+                cout << "Numero de Alunos:" << contAlunos << endl;
+                cout << "Media de Idade " << mediaIdade/contAlunos << endl;
+                cout << "-------------------" << endl;
+         }

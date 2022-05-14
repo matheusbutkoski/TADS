@@ -1,0 +1,45 @@
+INSTRUÇÃO DE SELEÇÃO "SE-SENAO"
+
+- CONDICIONA PARTE DO CÓDIGO À EXECUÇÃO
+- ANALISA CONDIÇÃO QUE RETORNA V OU F
+- PODE SER EMPREGADO DE FORMA "SIMPLES", "COMPLETA" OU "ENCADEADA"
+
+-> CONDIÇÃO
+
+ PIMEIRA - OPERADOR - SEGUNDA
+              =
+             < >
+             < =
+             = >
+
+-- SIMPLES --
+
+se (condição) entao
+
+fimse
+
+
+-- COMPLETA --
+
+se (condição) entao
+
+
+senao
+
+fimse
+
+-- ENCADEADO --
+
+se (x>0) entao
+    escreval("maior")
+senao
+se (x<0) entao
+    escreval ("menor")
+senao
+se (x=0) entao
+    escreval ("igual")
+fimse
+fimse
+fimse
+
+

@@ -1,0 +1,5 @@
+preço de custo / preço de venda = precentual de lucro
+
+o formulário apresesntará os campos descritos que devem ser preenchidos e salvos
+
+ADICIONAR/EDITAR/REMOVER

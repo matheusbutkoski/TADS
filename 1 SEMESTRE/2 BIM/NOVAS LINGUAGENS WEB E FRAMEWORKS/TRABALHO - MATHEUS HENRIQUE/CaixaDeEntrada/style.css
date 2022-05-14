@@ -1,0 +1,65 @@
+.container{
+  max-width: 1900px;
+
+}
+
+
+.form-control{
+
+    border: 2px solid rgb(170, 155, 155);
+    border-radius: 7px;
+    margin-top: 10px;
+    /* padding-bottom: 370px; */
+   
+
+
+}
+
+
+
+.row-cadastro a{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.row-iframe .form-control{
+    margin-top: 6px;
+    height: 400px;
+
+    
+}
+
+.row-img{
+
+padding-left: 50px;
+padding-top: 14px;
+cursor: pointer;
+
+}
+
+
+.row-pesquisa{
+font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+background: transparent;
+padding-right: 10px;
+
+}
+.width-form{
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+
+.row-cadastro i{
+color: rgb(97, 93, 93);
+
+}
+
+.row-iconfig i{
+
+margin-left: 1040px;
+cursor: pointer;
+margin-top: 17px;
+
+}
+

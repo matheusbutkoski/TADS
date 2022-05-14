@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+         div {
+            background-color: lightgray;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            display: inline-block;
+            border-radius: 20px;
+        }
+            div:hover{
+                background-color: yellow;
+                cursor: pointer;;
+            }
+             
+            div > h1 {
+                display: none;
+            }
+            
+            div:hover > h1{
+                display: inline-block;
+            }
+
+    </style>
+
+</head>
+<body>
+    <div id="d1">01
+        <br>
+            <h1>Eu</h1>
+        </br>
+    </div>
+
+    <div id="d2">02
+        <br>
+            <h1>não</h1>
+        </br>
+    </div>
+    
+    <div id="d3">03
+        <br>
+          <h1>sei</h1>
+        </br>
+    </div>
+    
+</body>
+</html>
