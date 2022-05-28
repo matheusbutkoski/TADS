@@ -11,7 +11,6 @@ struct No{
 typedef struct No no;
 typedef no *ArvBin;
 
-
 ArvBin criarArvBin(){
     ArvBin *raiz = (ArvBin*)malloc(sizeof(ArvBin));
     if(raiz != NULL){
@@ -74,7 +73,6 @@ void exibeNo(no *percorre){
         printf("%5d", percorre->num);
     }
 }
-
 void buscarPosArvBin(ArvBin *raiz){
     if (*raiz == NULL){
         return 0;
@@ -93,7 +91,6 @@ void liberaNo(no *percorre){
         free(percorre);
     }
 }
-
 void liberaArvBin(ArvBin *raiz){
     if (*raiz == NULL){
         return 0;
@@ -101,61 +98,6 @@ void liberaArvBin(ArvBin *raiz){
         liberaNo(*raiz);
     }
 
-}
-
-no *removeNo(no *atual){
-    no *no1, *no2;
-    if(atual->esq == NULL){
-        no2 = atual->dir;
-        free(atual);
-        return no2;
-    }
-    no1 = atual;
-    no2 = atual->esq;
-    while(no2->dir != NULL){
-        no1 = no2;
-        no2 = no2->esq;
-    }
-    if(no1 != atual){
-        no1->dir = no2->esq;
-        no2->esq = atual->esq;
-    }
-    no2->dir = atual->dir;
-    free(atual);
-    return no2;
-}
-
-int remove_ArvBin(ArvBin raiz){
-    int valor;
-    printf("Informe valor a ser excluído\n");
-    scanf("%d", &valor);
-    if(raiz==NULL){
-        printf("Arvore Vazia\n");
-        return 0;
-    }else{
-        no *ant, * atual;
-        ant = NULL;
-        atual = *raiz;
-        while(atual != NULL){
-            if(atual->num == valor){
-                if(atual == *raiz){
-                    *raiz = remove();
-                }else{
-                    if(ant->dir == atual){
-                        ant->dir = remove();
-                    }else{
-                        ant->esq = remove();
-                    }
-                }
-            }
-            ant = atual;
-            if(valor < atual->num){
-                atual = atual->esq;
-            }else{
-                atual = atual->dir;
-            }
-        }
-    }
 }
 
 // EX 1
@@ -332,15 +274,13 @@ int buscarAltura(ArvBin *raiz){
 
 }
 
-
-
 int main(){
     ArvBin *raiz;
     raiz = criarArvBin();
     int op, x;
 
 do{
-    printf("------------\n");
+    printf("-----------------------\n");
     printf("Arvore Binaria\n");
     printf("1 - Insere\n");
     printf("2 - Busca Pos-Ordem\n");
@@ -354,7 +294,7 @@ do{
     printf("10 - Mostrar numeros impares da arvore em ordem\n");
     printf("11 - Mostrar Altura da Arvore\n");
     printf("0 - Sair\n");
-    printf("------------\n");
+    printf("-----------------------\n");
     scanf("%i", &op);
     system("@cls||clear");
     switch(op){
@@ -408,12 +348,9 @@ do{
     case 11:
         printf("Altura da Arvore: %i\n", buscarAltura(raiz));
     break;
-
-
-
-
     }
 }while(op != 0);
 
 system("pause");
 }
+
