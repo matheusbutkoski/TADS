@@ -40,6 +40,11 @@ public class Endereco {
     public void setNumero(int numero) {
         this.numero = numero;
     }
+
+    @Override
+    public String toString() {
+        return "Endereco{" + "cidade=" + cidade + ", rua=" + rua + ", numero=" + numero + '}';
+    }
    
    
     

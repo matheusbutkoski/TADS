@@ -1,88 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
-/***************************lista******************************************/
-struct  Node{//criando o tipo do elemento da lista
-    int num;//dado
-    struct Node *ant;
-	struct Node *prox;
-};
-typedef struct Node node;//apelido
-typedef node *LISTA;//declara��o ponteiro da cabe�a da lista
-
-LISTA* criarLista(){
-    LISTA *li =(LISTA*) malloc (sizeof(LISTA));//aloca cabe�a da lista
-    if(li != NULL){
-        *li=NULL;
-    }else{
-        printf("Erro na aloca��o...\n");
-        exit(0);
-    }
-    return li;
-}
-
-int insereOrdenado(LISTA* lista, int num){ //funcao insere no inicio duplamente
-    node *novo=(node *) malloc(sizeof(node)); //aloca novo elemento
-    node *tmp = *lista;//cria auxiliar
-    if(novo == NULL){//testa se alocacao ocorreu
-        printf("Sem memoria disponivel!\n");
-        exit(0);
-    }
-    novo->num=num;
-    if((*lista) == NULL){ // verifica se lista vazia e insere no inicio
-    	*lista = novo;
-    	novo->ant = NULL;
-    	novo->prox = NULL;
-	}else if((*lista) != NULL){
-    	while(tmp->num < novo->num && tmp->prox != NULL){//percorre ate o at� encontrar elemento maior que num
-            tmp = tmp->prox;
-        }
-        if (tmp->ant == NULL){//unico n�
-        	if(tmp->num < novo->num){//insere depois
-        		tmp->prox = novo;
-        		novo->ant = tmp;
-        		novo->prox = NULL;
-			}else{                   //insere antes
-				(*lista)->ant = novo;
-				novo->ant = NULL;
-				novo->prox = *lista;
-				*lista = novo;
-			}
-       	}else if ( tmp->prox != NULL && tmp->num > novo->num){
-            tmp->ant->prox = novo;
-            novo->ant=tmp->ant;
-            tmp->ant = novo;
-            novo->prox = tmp;
-       	}
-       	else if (tmp->prox == NULL && tmp->num > novo->num){ // insere no final
-			novo->ant = tmp->ant;
-			novo->prox = tmp;
-			tmp->ant->prox = novo;
-			tmp->ant = novo;
-	   	}else if (tmp->prox == NULL && tmp->num < novo->num){
-        	novo->prox = tmp->prox;
-        	tmp->prox = novo;
-        	novo->ant = tmp;
-    	}
-	}
-	printf("incluiu %i\n", num);
-}
-int libera(LISTA* lista){
-    if((*lista) != NULL){
-        node *proxNode, *atual;// auxiliar para ajudar free
-        atual = *lista;
-        while(atual->prox != NULL){
-            proxNode = atual->prox;
-            free(atual);
-            atual = proxNode;
-        }
-        *lista = NULL;//seta novamente para NULL pois esta vazia
-    }else{
-        printf("Lista ja esta vazia... \n");
-    }
-}
-
 /***************************arvore******************************************/
 
 struct No{ //cria a estrutura da arvore
@@ -255,9 +173,57 @@ int balancear_ArvBin(ArvBin* raiz, LISTA* lista){
   printf("\n");
 }
 
+int altNo (no* percorre){
+    if (percorre == NULL){
+        return -1;
+
+    }else{
+        return percorre -> altura
+    }
+}
+
+int fatorBalanceamento(no* percorre){
+    return abs(altNo(percorre->esq)- altNo(percorre->dir));
+}
+
+int maior(int x, int y){
+    if(x>y){
+        return x;
+    }else{
+        return y;
+    }
+}
+int rotacaoLL(ArvAvl* raiz){
+        no* percorre;
+        percorre = (*raiz)->esq;
+        (*raiz)->esq = percorre->dir;
+        percorre->dir = *raiz;
+        (*raiz)->altura = maior(altNo((*raiz)->esq), altNo((*raiz)->dir))+1;
+        percorre->altura = maior(altNo(percorre->esq), (*raiz)->altura)+1;
+        *raiz = percorre;
+}
+
+int rotacaoRR(ArvAvl* raiz){
+        no* percorre;
+        percorre = (*raiz)->dir;
+        (*raiz)->dir = percorre->dir;
+        percorre->esq = *raiz;
+        (*raiz)->altura = maior(altNo((*raiz)->esq), altNo((*raiz)->dir))+1;
+        percorre->altura = maior(altNo(percorre->dir), (*raiz)->altura)+1;
+        *raiz = percorre;
+}
+
+int rotacaoLR(ArvAvl* raiz){
+    rotacaoRR(&(*raiz)->esq);
+    rotacaoLL(raiz);
+}
+
+int rotacaoRL(ArvAvl* raiz){
+    rotacaoLL(&(*raiz)->dir);
+    rotacaoRR(raiz);
+}
 
 int main(){
-    LISTA *lista = criarLista();
     ArvBin *raiz = criarArvBin();
     int opt,numero_no,maiorE=0, maiorD=0, cont=0;
     do{
