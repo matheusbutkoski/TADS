@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1652652045 source:c:\users\ander\desktop\trabalhos da faculdade\segundo ano\primeiro semestre\primeiro bimestre\orientação a objetos\trabalhos avaliativos  e as\trabalho bimestral\biblioteca\main.cpp
+	<iostream>
+	<string>
+	"Usuario.h"
+
+1652647650 source:c:\users\ander\desktop\trabalhos da faculdade\segundo ano\primeiro semestre\primeiro bimestre\orientação a objetos\trabalhos avaliativos  e as\trabalho bimestral\biblioteca\src\usuario.cpp
+	"Usuario.h"
+
+1652652055 c:\users\ander\desktop\trabalhos da faculdade\segundo ano\primeiro semestre\primeiro bimestre\orientação a objetos\trabalhos avaliativos  e as\trabalho bimestral\biblioteca\include\usuario.h
+	<string>
+
+1652648562 source:c:\users\ander\desktop\trabalhos da faculdade\segundo ano\primeiro semestre\primeiro bimestre\orientação a objetos\trabalhos avaliativos  e as\trabalho bimestral\biblioteca\src\livro.cpp
+	"Livro.h"
+
+1652649013 c:\users\ander\desktop\trabalhos da faculdade\segundo ano\primeiro semestre\primeiro bimestre\orientação a objetos\trabalhos avaliativos  e as\trabalho bimestral\biblioteca\include\livro.h
+	<string>
+
+1652649096 source:c:\users\ander\desktop\trabalhos da faculdade\segundo ano\primeiro semestre\primeiro bimestre\orientação a objetos\trabalhos avaliativos  e as\trabalho bimestral\biblioteca\src\emprestimo.cpp
+	"Emprestimo.h"
+
+1652650692 c:\users\ander\desktop\trabalhos da faculdade\segundo ano\primeiro semestre\primeiro bimestre\orientação a objetos\trabalhos avaliativos  e as\trabalho bimestral\biblioteca\include\emprestimo.h
+	<string>
+
+1652749078 source:c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\main.cpp
+	<iostream>
+	<string>
+	"Livro.h"
+	"Usuario.h"
+	"Emprestimo.h"
+
+1652749123 c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\include\usuario.h
+	<string>
+	"Livro.h"
+	"Emprestimo.h"
+
+1652747462 source:c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\src\emprestimo.cpp
+	"Emprestimo.h"
+
+1652749517 c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\include\emprestimo.h
+	<string>
+	"Data.h"
+
+1652720280 source:c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\src\livro.cpp
+	"Livro.h"
+
+1652749248 c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\include\livro.h
+	<string>
+
+1652720280 source:c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\src\usuario.cpp
+	"Usuario.h"
+
+1652749674 c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\include\data.h
+	"Emprestimo.h"
+
+1652746875 source:c:\users\asneves2\desktop\facul\orientação a objetos\trabalho bimestral\biblioteca\src\data.cpp
+	"Data.h"
+
+1652749078 source:c:\users\andre\downloads\biblioteca\biblioteca\main.cpp
+	<iostream>
+	<string>
+	"Livro.h"
+	"Usuario.h"
+	"Emprestimo.h"
+
+1652749248 c:\users\andre\downloads\biblioteca\biblioteca\include\livro.h
+	<string>
+
+1652749123 c:\users\andre\downloads\biblioteca\biblioteca\include\usuario.h
+	<string>
+	"Livro.h"
+	"Emprestimo.h"
+
+1652749794 c:\users\andre\downloads\biblioteca\biblioteca\include\emprestimo.h
+	<string>
+	"Data.h"
+
+1652753727 c:\users\andre\downloads\biblioteca\biblioteca\include\data.h
+
+1652747462 source:c:\users\andre\downloads\biblioteca\biblioteca\src\emprestimo.cpp
+	"Emprestimo.h"
+
+1652720280 source:c:\users\andre\downloads\biblioteca\biblioteca\src\livro.cpp
+	"Livro.h"
+
+1652720280 source:c:\users\andre\downloads\biblioteca\biblioteca\src\usuario.cpp
+	"Usuario.h"
+
+1652749663 source:c:\users\andre\downloads\biblioteca\biblioteca\src\data.cpp
+	"Data.h"
+

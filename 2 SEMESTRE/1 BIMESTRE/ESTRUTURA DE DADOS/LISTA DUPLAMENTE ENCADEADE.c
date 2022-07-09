@@ -87,7 +87,6 @@ void exibe(LISTA* lista){
         printf("CRESCENTE....\n");
         while (tmp != NULL){
             printf("%5d", tmp->num);
-            ultimo = tmp;
             tmp = tmp->prox;
         }
     }
