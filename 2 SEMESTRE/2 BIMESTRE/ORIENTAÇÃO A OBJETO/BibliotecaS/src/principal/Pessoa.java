@@ -1,6 +1,6 @@
 package principal;
 
-public class Pessoa {
+public abstract class Pessoa {
     protected String nome;
     protected String cpf;
     protected String telefone;
