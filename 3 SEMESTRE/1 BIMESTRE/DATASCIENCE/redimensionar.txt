@@ -1,0 +1,1 @@
+transformar os dados(sem afetar o valor) para que fiquem ambos fiquem na mesma escala, facilitando a compreensao dos resultados e agilizando os precessos de comparaçao
