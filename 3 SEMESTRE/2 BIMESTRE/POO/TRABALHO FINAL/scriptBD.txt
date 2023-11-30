@@ -1,0 +1,46 @@
+create database trabalho_livraria;
+
+create table endereco(
+id_endereco integer primary key, 
+cidade varchar(40), 
+numero int,
+rua varchar(40)
+);
+
+create table cliente(
+ id integer primary key,
+ nome varchar(40),
+ cpf varchar(20),
+ id_endereco integer,
+ constraint fk_Cliente foreign key (id_endereco) references endereco (id_endereco)
+);
+
+create table vendedor(
+ id integer primary key,
+ nome varchar(40),
+ cpf varchar(20),
+ id_endereco integer,
+ salario double,
+ constraint fk_Vendedor foreign key (id_endereco) references endereco (id_endereco)
+);
+
+create table livro(
+id integer primary key not null,
+titulo varchar(40),
+autor varchar(40),
+editora varchar(40),
+numPag int);
+
+create table emprestimo(
+id integer primary key not null,
+id_livro integer,
+id_vendedor integer,
+id_cliente integer,
+data_emprestimo date,
+data_termino date,
+prazoDias int,
+stats varchar(20),
+constraint fk_Emprestimo_livro foreign key (id_livro) references livro (id),
+constraint fk_Emprestimo_cliente foreign key (id_cliente) references cliente (id),
+constraint fk_Emprestimo_vendedor foreign key (id_vendedor) references vendedor (id)
+);

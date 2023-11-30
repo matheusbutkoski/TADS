@@ -1,0 +1,52 @@
+-- Criação do banco de dados
+CREATE DATABASE trabalho_alunos;
+
+-- Utilização do banco de dados
+USE trabalho_alunos;
+
+-- Tabela Aluno
+CREATE TABLE aluno (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    ra VARCHAR(10) NOT NULL,
+    nome VARCHAR(100) NOT NULL
+);
+
+-- Tabela Curso
+CREATE TABLE curso (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    carga_horaria INT NOT NULL
+);
+
+-- Tabela Disciplina
+CREATE TABLE disciplina (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    descricao VARCHAR(100) NOT NULL
+);
+
+-- Tabela de relacionamento entre Aluno e Curso
+CREATE TABLE aluno_curso (
+    aluno_id INT,
+    curso_id INT,
+    PRIMARY KEY (aluno_id, curso_id),
+    FOREIGN KEY (aluno_id) REFERENCES aluno(id),
+    FOREIGN KEY (curso_id) REFERENCES curso(id)
+);
+
+-- Tabela de relacionamento entre Aluno e Disciplina
+CREATE TABLE aluno_disciplina (
+    aluno_id INT,
+    disciplina_id INT,
+    PRIMARY KEY (aluno_id, disciplina_id),
+    FOREIGN KEY (aluno_id) REFERENCES aluno(id),
+    FOREIGN KEY (disciplina_id) REFERENCES disciplina(id)
+);
+
+-- Tabela de relacionamento entre Curso e Disciplina
+CREATE TABLE curso_disciplina (
+    curso_id INT,
+    disciplina_id INT,
+    PRIMARY KEY (curso_id, disciplina_id),
+    FOREIGN KEY (curso_id) REFERENCES curso(id),
+    FOREIGN KEY (disciplina_id) REFERENCES disciplina(id)
+);

@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Marvel&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    backdrop-filter: none;
+    box-shadow: none;
+    
+    }
+
+:root{
+    --fonte1: 'Marvel';
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    gap: 50px;
+    height: 8vh;
+    border-bottom: 5px solid black;
+    background-image: url("imagens/fundo-cabeçalho.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu > a{
+    text-decoration: none;
+    font-family: var(--fonte1);
+    color: black;
+    font-weight:bolder;
+    font-size: x-large;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(7px);
+    box-shadow: 2px 2px 7px rgb(39, 37, 37);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.cabecalho-menu > a:hover{
+transform: scale(1.1);
+transition: 0.5s;
+
+}
+
+.cabecalho-logo{
+    height: 65px;
+    border: 3px solid black
+}
+
+.seta-baixo{
+    width: 100px;
+    animation: jumping 1.5s linear infinite;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 47%;
+}
+
+.seta-cima{
+    width: 100px;
+    position: absolute;
+    right: 47.8%;
+    top: -50%;
+    margin-top: 60px;
+    animation: jumping 1.5s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes jumping {
+ from {transform: translateY(-15px);}
+ 50% {transform: translateY(0px);}
+ to {transform: translateY(-15px);}
+}
+
+.menu-mobile > div{
+width: 32px;
+height: 2px;
+background-color: black;
+margin: 8px;
+}
+
+.menu-mobile{
+    cursor: pointer;
+    display: none;
+}
+
+.fundo-ironman{
+    height: 90vh;
+    width: 99vw;
+    background-image: url("imagens/iron 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+    box-shadow: inset 10px 10px 20px rgb(0, 0, 0);
+    
+}
+
+.fundo-ironman-2{
+    height: 100vh;
+    width: 99vw;
+    background-image: url("imagens/iron-man-2\ banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+    box-shadow: inset 10px 10px 20px rgb(0, 0, 0);
+    
+}
+.fundo-hulk{
+    height: 100vh;
+    width: 99vw;
+    background-image: url("imagens/hulk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+    box-shadow: inset 10px 10px 20px rgb(0, 0, 0);;
+    
+}
+
+.imagem-circulo{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 2px 2px 20px rgb(39, 37, 37);
+}
+
+.imagem-circulo-2{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-position: 0%;
+    object-fit:cover;
+    box-shadow: 2px 2px 20px rgb(39, 37, 37);
+
+}
+
+.imagem-circulo:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imagem-circulo-2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.infos{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    background: rgba(1, 1, 1, 0.8);
+    backdrop-filter: blur(7px);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.infos:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.sinopse{
+    font-family: var(--fonte1);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.infos-titulo{
+    text-align: center;
+    font-family: var(--fonte1);
+    font-size: 75px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 35px;
+
+}
+
+.hud-ironman{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    width: 100%;
+   
+}
+
+.hud-hulk{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    
+}
+
+.hud-ironman-2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 222%;
+    width: 100%;
+   
+}
+
+.botao{
+text-align: center;
+padding: 20px;
+border-radius: 20px;
+color: black;
+text-decoration: none;
+font-family: var(--fonte1);
+font-weight: bold;
+font-size: 20px;
+background-color: antiquewhite;
+box-shadow: 2px 2px 20px rgb(39, 37, 37);
+}
+
+.botao:hover{
+transform: scale(1.1);
+transition: 0.5s;
+}
+
+
+
+@media (max-width:999px){
+
+.botoes{
+    justify-content: center;
+}
+.fundo-ironman{
+    height: 100vh;
+}
+         .hud-ironman{
+        flex-direction: column;
+        gap: 30px;
+        height: 65%;
+        }
+
+        .hud-hulk{
+        flex-direction: column;
+        gap: 30px;
+        height: 65%;
+        margin-top: 30px;
+        }
+    .imagem-circulo{
+        height: 300px;
+        width: 300px;
+    }
+
+.infos{
+width: 350px;
+height: 350px;
+}
+
+.infos-titulo{
+    font-size: 40px;
+}
+
+.sinopse{
+    font-size: 20px;
+}
+
+.botao{
+padding: 15px;
+}
+    }
+
+
+
+@media (max-width:800px){
+
+    body{
+    overflow-x: hidden;
+    }
+
+    .fundo-hulk{
+        background-position: 80%;
+        transition: 0.3s;
+        
+    }
+
+    .cabecalho{
+        justify-content: space-between;
+    }
+    
+     .cabecalho-menu{
+         position: absolute;
+         top: 10.5vh;
+         right: 0;
+         width: 41vw;
+         height: 42vh;
+         background: rgba(0,0,0,0.8);
+         backdrop-filter: blur(7px);
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+         z-index: 1;
+         transform: translateX(100%);
+         transition: transform 0.4s ease-in;
+     }
+
+     .cabecalho-menu.active{
+        transform: translateX(0);
+     }
+     
+         .menu-mobile{
+             display: block;
+         }
+ 
+         .cabecalho-menu > a{
+             color: rgb(255, 255, 255);
+             font-size: 30px;
+             font-weight: bold;
+         }
+}

@@ -1,0 +1,129 @@
+DIREITO:
+conjunto de normas e regras vigentes no meio social, traça regras que são impostas, que se não forem
+respeitadas geram sanção.
+
+LEI
+é a representação do direito escrito, se trata de aspirações sociais, é criada pela necessidade social.
+restrito ao poder legislativo.
+
+DIREITO CIVIL:
+representa interesses individuais e particulares em ações referentes a propriedades, posse de bens ou
+questoes familiares como divorcio, adoção e sucessão. maior área do direito brasileiro.
+
+DIREITO COMERCIAL:
+defende os empresários diante seus interesses comerciais, como concorrência, marca, patente, processos
+de falência e recuperação de empresa.
+
+DIREITO DO CONSUMIDOR:
+defende os interesses do consumidor aplicando as normas que condedem aos cidadãos direitos perante
+fornecedores de bens e serviços.
+
+DIREITO DE TI
+analisar questões jurídicas ligadas ao uso da informática e as relações entre usuários, agentes e fornecedores
+como provedores de internet, empresas de software, bancos e lojas virtuais.
+
+DIREITO TRIBUTÁRIO
+principios e normas relativos a arrecadação de impostos e taxas, obrigações tributárias e orgãos fiscalizadores
+defendendo o contribuinte de equivocos no recolhimento de impostos.
+
+DIREITO ADMINISTRATIVO
+atua nas relações envolvendo orgãos públicos e sociedade, area explorada por procuradores
+
+DIREITO TRABALHISTA
+representar individuos ou empresas em disputas entre empregado e empregador ou em questões sindicais.
+
+DIREITO PREVIDENCIÁRIO
+represnetar interesses de segurados da previdência social em busca de direitos como aposentadoria, pensão por morte,
+auxílio doença, etc...
+
+DIREITO PENAL E CRIMINAL
+ações referentes a crimes ou contravenções contra pessoas físicas ou jurídicas
+
+ETAPAS: ELABORAÇÃO, REVISÃO, SANÇÃO, PROMULGAÇÃO, PUBLICAÇÃO
+
+COSTUMES: CONJUNTO DE NORMAS DE CONDUTA SOCIAL, CRIADAS PELO POVO (CHEQUE)
+
+JURISPRUDENCIA: conjunto de decisões de juízes e tribunais
+
+PROPRIEDADE INTELECTUAL: garante aos inventores/criadores o direito de forma exclusiva das recompensas por
+sua criação
+
+MARCA: sinal distintivo que identifica produto ou serviço, proteção inicial de 10 anos
+
+PATENTE: titulo concedido que permite ao titual dispor livre e exclusivamente do processo ou produto
+por no máximo 20 anos
+
+DESENHOS INDUSTRIAIS: desenho do produto, caracteristica estética
+
+INPI - órgao responsável pelo registro, guarda e validação de propriedades intelectuais.
+
+
+
+
+COPYRIGHT - regime padrão que concede exclusividade do direito autoral ao criador, limitando uso e acesso
+de terceiros para fins de invoção ou lucratividade. Em TI se atrela aos códigos fonte
+
+COPYLEFT - regime de livre acesso aos códigos fonte, ajuda no engajamento coletivo e traz melhor eficiência,
+sofisticação dos programas
+
+SOFTWARE LIVRE É UM SOFTWARE EM QUE OS USUARIO PODEM EXECUTAR, COPIAR, MODIFICAR E REDESTRIBUIR DE FORMA LIVRE
+LINUX, MOZILLA, MYSQL, POSTGRES
+
+SOFTWARE PROPRIETARIO EULA DOWNLOAD, OEM NA COMPRA DE MAQUINAS, FPP NA COMPRA DE KEYS FISICAS - 
+PRO DE PROIBIDO PROIBIDO COPIA, REDISTRIBUCAO OU ALTERAÇÃO
+
+LICENÇA GNU GPL - O SOFTWARE TEM Q SE MANTER LIVRE APOS ALTERAÇAO - COPYLEFT
+MIT/APACHE/BSD - LIÇENCAS PERMISSIVAS NA REDISTRUIBUIÇÃO
+
+OPEN SOURCE O DESENVOLVEDOR ORIGINAL DETERMINA AS CONDIÇÕES DE DISTRIBUIÇÃO
+
+ON-PREMISE
+UM MODELO EM QUE O SISTEMA É INSTALADO DIRETAMENTE NA INFRAESTRUTURA DE TI DA EMPRESA, ESTA 
+TEM QUE ARCAR COM TODOS OS CUSTOS PARA QUE O SISTEMA FUNCIONE CORRETAMENTE
+
+LEI DO SOFTWARE - 1998
+	OFERECE PROTECAO JURÍDICA DAS OBRAS LITERARIAS AOS SOFTWARES
+	OFERECE PROTEÇÃO DA PROPRIEDADE INTELECTUAL DO SOFTWARE
+	ELIMINA RESTRICOES RELATIVAS SOBRE DISTRIBUICAO
+	ELIMINA O CADASTRO OBRIGATORIO NO MINISTERIO DA CIENCIA E TECNOLOGIA
+	OS DIREITOS PATRIMONIAIS PERDURAM POR 50 ANOS AO AUTOR DO SOFTWARE
+
+NAO OFENDEM OS DIREITOS DO AUTOR
+	REPRODUCAO DE 1 EXEMPLAR DE COPIA LICENCIADA(BACKUP)
+	CITAÇÃO DO PROGRAMA PARA FINS DIDÁTICOS
+	SIMILARIDADE COM PROGRAMA PRE-EXISTENTE
+	INTEGRACAO A UM SISTEMA INDISPENSAVEL AO USO EXCLUSIVO
+	
+OFENDE OS DIREITOS DO AUTOR
+	UTILIZACAO SEM LIÇENCA
+	COMERCIALIZACAO ILEGAL
+
+SOFTWARE COMERCIAL
+	SOFTWARE DE EMPRESAS AO MERCADO - LIÇENCA OU SERVIÇO DE IMPLANTAÇÃO - ON-PREMISE OU CLOUD
+	GERALMENTE COMBINADA COM A IMPLANTAÇÃO, CUSTOMIZACAO, TREINAMENTO, SUPORTE E ATUALIZAÇÃO.
+	ERP, CRM, WMS(DEPÓSITO), TMS(LOGÍSTICA), MRP (MARKETING), POWER BI
+
+FREEWARE - SEM LICENÇA PAGA PARA O USO COMPLETO, MAS PODE NÃO TER CÓDIGO ABERTO
+TRIALWARE - SOFTWARE DISPONIBILIZADO PARA TESTE
+FREEMIUM - POSSUI VERSÃO GRATUITA, MAS POSSUI UMA LICENÇA PAGA POR RECURSOS ADICIONAIS (JOGOS DE CELULAR)
+
+PRIVACIDADE: DIREITO DE RESERVA DE INFORMAÇÕES PESSOAIS, DIREITO DE SER DEIXADO EM PAZ
+PRIVACIDADE NA INTERNET: HABILIDADE DE UMA PESSOA CONTROLAR A EXPOSIÇÃO E DISPONIBILIDADE DE INFORMAÇÕES
+DELA MESMA OU DE OUTRA PESSOA.
+
+MARCO CIVIL DA INTERNET - ASSEGURAR DIREITOS E PRINCIPIOS PARA O USO DA INTERNET NO BRASIL
+LIBERDADE DE EXPRESSAO, COMUNICACAO E MANIFESTACAO DE PENSAMENTO, PRIVACIDADE E PROTECAO DE DADOS PESSOAIS
+NEUTRALIDADE DE REDE - TODO PACOTE DE DADO É TRATADO DA MESMA FORMA
+GUARDA DE LOGS - POR PELO MENOS 1 ANO
+
+IA NO DIREITO
+COIN - JPMORGAN - INTERPRETA ACORDOS DE EMPRESTIMOS COMERCIAIS
+WATSON - IBM - ELABORA ACOES E DEFESAS JUDICIAIS
+LAWGEEX - ELABORAÇÃO E APROVAÇÃO DE CONTRATOS
+DO NOT PAY - TRATA OPERAÇÕES DENTRO DO DIREITO
+NEXTLP - TRABALHA NA COLETA DE DOCUMENTOS
+
+
+
+
+

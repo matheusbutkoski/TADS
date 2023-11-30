@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menu Page</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js"></script>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #f1f1f1;
+		}
+
+		.container {
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+			max-width: 500px;
+			margin: auto;
+			margin-top: 50px;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			padding: 12px 20px;
+			border-bottom: 1px solid #ddd;
+			cursor: pointer;
+		}
+
+		li:last-child {
+			border-bottom: none;
+		}
+
+		li:hover {
+			background-color: #f1f1f1;
+		}
+
+		.cabecalho-menu {
+			display: flex;
+			gap: 30px;
+		}
+
+		.cabecalho-menu > a{ 
+			text-decoration: none;
+			color: black;
+			font-weight:bolder;
+			font-size: large;
+			background: rgba(255, 255, 255, 0.9);
+			backdrop-filter: blur(7px);
+			box-shadow: 2px 2px 7px rgb(39, 37, 37);
+			padding: 10px;
+			border-radius: 20px;
+		}
+
+		.cabecalho-menu > a:hover{
+		transform: scale(1.1);
+		transition: 0.5s;
+
+		}
+
+		.cabecalho-logo {
+			height: 40px;
+		}
+
+		.cabecalho-logo:hover{
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="cabecalho">
+				<div class="cabecalho-menu">
+					<img class="cabecalho-logo" src="usuario.png">
+					<a href="">PEDIDOS</a>
+					<a href="">ATUALIZAR PEDIDO</a>
+					<a href="">BUSCAR PEDIDOS</a>
+
+				</div>
+		</nav>
+	</header>
+	<div class="container">
+		<h2>Pedidos em andamento:</h2>
+		<ul>
+			<li>
+				CPFPedido #123456 - Processo: <b>Enviado ao laboratório</b>
+			</li>
+			<li>
+				Pedido #234567 - Processo: <b>Executado</b>
+			</li>
+			<li>
+				Pedido #345678 - Processo: <b>Voltou do laboratório</b>
+			</li>
+			<li>
+				Pedido #456789 - Processo: <b>Pronto para entrega</b>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

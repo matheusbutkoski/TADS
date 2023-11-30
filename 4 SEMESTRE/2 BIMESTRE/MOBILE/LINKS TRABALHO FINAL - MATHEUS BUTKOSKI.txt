@@ -1,0 +1,5 @@
+REPOSITÓRIO DO APP: https://github.com/matheusbutkoski/appInvestCripto
+
+APK: https://drive.google.com/file/d/1lwBI-6_bI43-XR2xW-aAwndoNDW5_4HV/view?usp=drive_link
+
+Provavlemente no primeiro build a lista de moedas disponiveis nao carregue ao clicar no botao de adicionar, basta reiniciar que a api ja volta a funcionar.

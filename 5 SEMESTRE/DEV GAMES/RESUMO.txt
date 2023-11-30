@@ -1,0 +1,106 @@
+GameEngine - software que fornece ferramentas para lidar com
+o desenvolvimento de jogos
+GameObject - são pontos na cena que possuem o componente transform
+
+Collider - atribui a geometria da colisão de um objeto
+
+Trigger - propriedade do componente collider e faz com que
+o collider se transforme em um detector de colisão que não
+impede objetos de passarem
+
+Rigidbody2D - usado para adicionar física realista aos objetos 2D
+em um jogo
+
+Sprite Renderer - responsável por renderizar 
+e tratar imagens na cena do jogo
+
+Animator - usado para criar animações 
+e transições de animações em um elemento no jogo
+
+OnCollisionEnter - executa o método quando entra em colisão
+OnCollisionExit - executa o método quando sai da colisão
+OnCollisionStay - executa o método quando está da colisão
+
+CompareTag - verifica se um objeto tem uma tag específica
+
+START - executado uma vez no inicio, para configurações iniciais
+UPDATE - executado frame a frame do jogo e contem a lógica do jogo
+que precisa ser atualizada a cada quadro
+
+TIME.DELTATIME - padroniza o tempo em segundos e conta o intervalo entre cada frame do jogo.
+
+INPUT
+
+GETAXIS - ENTRE -1 E 1
+GETAXISRAW - -1, 0, 1
+
+GETBUTTON - RETORNA TRUE QUANDO O BOTAO É PRESSIONADO
+GETBUTTONDOWN - RETORNA TRUE ENQUANTO O BOTÃO É PRESSIONADO
+
+---- MÉTODO MOVE ----
+public float speed;
+
+void move(){
+Vector3 moviment = new Vector3(Input.GetAxisRaw("Horizontal"), 0 , 0);
+
+transform.position += moviment * speeed * Time.deltaTime;
+
+}
+
+---- MÉTODO JUMP -----
+public Rigidbody2D rb;
+public float impulse;
+
+jump(){
+if (Input.GetButtonDown("Jump")){
+        rb.AddForce(new Vector2(0, impulse), ForceMode2D.Impulse);
+        }
+}
+
+HUD - SÃO OS ELEMENTOS VISUAIS COLOCADOS NA CENA,
+
+AUDIOS
+ AUDIO SOURCE - É O COMPONENTE CONTROLADOR DO AUDIO
+ AUDIO CLIP - É O AUDIO EM SI
+ TOCAR AUDIO 
+ 
+ public AudioSource audioSource;
+ public AudioClip audioClip;
+ 
+ audioSource.Play(audioClip);
+ REPRODUZIR UMA VEZ - audioSource.PlayOneShot(audioClip);
+ 
+ 
+PREFABS - É UM GAMEOBJECT QUE PODE SER REUTILIZADO EM VARIAS CENAS,
+FACILITANDO O DESENVOLVIMENTO E EVITANDO RETRABALHO.
+ 
+TRANSICAO DE CENAS
+	utiliza a biblioteca SceneManagement
+	SceneManager.LoadScene("Cena");
+
+PAINEL - SERVE PARA FAZER INTERAÇOES COM O USUARIO
+TELAS DE PAUSE, GAMEOVER, ETC...
+
+MOVIMENTACAO ENTRE PONTOS
+
+public Transform pontoA;
+public Transform pontoB;
+public Vector2 proximoPonto;
+
+void Start(){'
+proximoPonto = pontoA.position;
+}
+
+void Update(){
+
+if(transform.position == pontoA.position){
+proximoPonto = pontoB.position;
+}
+
+if(transform.position == pontoB.position){
+proximoPonto = pontoA.position;
+}
+
+transform.position = Vector2.MoveTowards(transform.position, proximoPonto, velocidade * Time.deltaTime);
+
+}

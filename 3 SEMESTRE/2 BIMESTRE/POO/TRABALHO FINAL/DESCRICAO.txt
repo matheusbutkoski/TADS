@@ -1,0 +1,9 @@
+    Este é o sistema de uma livraria, em que o intuito é realizar o controle dos 
+emprestimos dos clientes em um banco de dados através do padrão DAO, sendo possivel
+realizar o cadastro de clientes, vendedores e livros que serão vinculados aos emprestimos.
+    O sistema utiliza uma interface para o metodo exibirInformacoes(), além de utilizar classe
+abstrata em Pessoa, que se estendera para Cliente e Vendedor. Ademais, são utilizadas duas
+exceções. EmprestimoException é usado para verificar se os clientes, vendedores, livros, que
+serão ligados a um emprestimos, estão cadastrados no banco de dados. LivroException é utilizado
+no cadastro de emprestimo e verifica se o livro desejado ja está emprestado, não sendo possível 
+realizar o emprestimo caso esteja. 

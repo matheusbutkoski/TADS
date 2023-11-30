@@ -1,0 +1,54 @@
+create database trabalho_imoveis;
+
+create table endereco(
+id_endereco integer primary key, cidade varchar(40), numero int, rua varchar(40)
+);
+
+create table pessoa(
+ id integer primary key,
+ nome varchar(40),
+ cpf varchar(20),
+ dataNasc date,
+ id_endereco integer,
+ constraint fk_Pessoa foreign key (id_endereco) references endereco (id_endereco)
+);
+
+create table cliente(
+ id integer primary key,
+ nome varchar(40),
+ cpf varchar(20),
+ dataNasc date,
+ id_endereco integer,
+ constraint fk_Cliente foreign key (id_endereco) references endereco (id_endereco)
+);
+
+create table vendedor(
+ id integer primary key,
+ nome varchar(40),
+ cpf varchar(20),
+ dataNasc date,
+ id_endereco integer,
+ percentual_comissao double,
+ salario double,
+ constraint fk_Vendedor foreign key (id_endereco) references endereco (id_endereco)
+);
+
+create table imovel(
+id integer primary key,
+matriculaImovel varchar(20),
+id_proprietario integer,
+id_endereco integer,
+tipo varchar(20),
+largura double,
+comprimento double,
+valor double,
+cadPro varchar(20),
+constraint fk_Proprietario foreign key (id_proprietario) references pessoa (id),
+constraint fk_EnderecoImo foreign key (id_endereco) references endereco (id_endereco)
+);
+
+select * from pessoa;
+
+select * from imovel
+join endereco as ed on imovel.id_endereco = ed.id_endereco
+join pessoa as p on imovel.id_proprietario = p.id

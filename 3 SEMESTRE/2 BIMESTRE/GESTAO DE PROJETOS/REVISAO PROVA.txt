@@ -1,0 +1,151 @@
+GOVERNANÇA CORPORATIVA
+Conjunto  de  processos,  costumes,  políticas,  leis,  regulamentos  e 
+instituições que regulam a maneira como uma empresa é dirigida, administrada ou controlada.  
+
+Ênfase em maximizar valor para os acionistas.
+
+- TRANSPARENCIA
+- EQUIDADE
+- PRESTACAO DE CONTAS
+- RESPONSABILIDADE CORPORTIVA
+
+7 Ps
+
+- EVITAR CONFLITO DE INTERESSES
+- EVITAR LIMITAÇÕES TÉCNICAS INDIVIDUAIS
+- EVITAR VIÉS COGNITIVO
+
+COBIT 5 - FRAMEWORK DE GOVERNANÇA CORPORATIVA DE BOAS PRÁTICAS
+
+ COBIT 5 é um framework de boas práticas que determina
+ uma linguagem comum entre o time de TI e a administração
+ de uma empresa, permitindo que metas comerciais sejam associadas a objetivos claros da TI.
+ 
+5 PRINCIPIOS
+
+1 - SATISFAZER AS NECESSIDADES DAS PARTES INTERESSADAS
+
+		O sistema de governança deve levar em consideração todas as partes
+	interessadas quando são tomadas decisões sobre benefícios, recursos
+	e avaliação de riscos.
+	
+	CASCATA DE METAS
+	
+	 - Quem recebe os benefícios?
+	 - Quem arca com os riscos?
+	 - Quais recursos são necessários?
+
+2 - ENVOLVER TOAS AS AREAS DA EMPRESA
+3 - EMPREGAR UMA ESTRUTURA UNICA E INTEGRADA
+
+	Nao fragmentar a TI em diversas estruturas na empresa	
+	
+4 - POSSIBILITAR UMA ABORGAGEM HOLISTICA
+
+	7 habilitadores
+	
+5 - SEPARAR GOVERNANÇA DE GERENCIAMENTO
+
+	DOMÍNIOS DE TI:
+	
+	GOVERNANÇA - NECESSIDADES DA EMPRESA: AVALIAR, ORIENTAR, MONITORAR OS OBJETIVOS e DEFINIR
+			  DIRETRIZES COM GESTAO DE PRIORIDADES E TOMADA DE DECISÕES
+	
+	GERENCIAMENTO - PLANEJAR - 13 PROCESSOS
+				DESENVOLVER - 10 PROCESSOS
+				EXECUTAR - 6 PROCESSOS
+	  			MONITORAR AS TAREFAS BÁSICAS - 3 PROCESSOS
+
+7 HABILITADORES:
+
+	Fatores que, individual e coletivamente, influenciam o
+	funcionamento dos processos.
+	
+	- PRINCÍPIOS, POLÍTICAS E ESTRUTURAS
+	- PROCESSOS
+	- ESTRUTURAS ORGANIZACIONAIS
+	- CULTURA, ÉTICA E COMPORTAMENTO
+	HABILITADORES DE RECURSOS:
+	- INFORMAÇOES
+	- INFRAESTRUTURA DE SERVIÇOS E APLICAÇÕES
+	- PESSOAS, HABILIDADES E COMPETÊNCIA
+	
+ITIL
+
+	BIBLIOTECA DE MELHORES PRÁTICAS DE GERENCIAMENTO DE SERVIÇOS DE TI
+	
+	METAS:
+	-Facilitar o gerenciamento de qualidade dos serviços de IT.
+	-Melhorar a eficiência, aumentar efetividade e reduzir o risco.
+
+	CENTRAL DE SERVIÇOS BASEADO EM ITIL:
+		-Prover um estratégico e único ponto de contato para os clientes e
+		usuários para gerenciar a resolução de incidentes e assuntos relacionados
+		ao suporte.
+		
+		-Recebe solicitações, perguntas, reclamações e notificações de
+		incidentes
+	
+	GERENCIAMENTO DE CONFIGURAÇÃO:
+		-Fornecer um modelo lógico de infra-estrutura de TI ou de serviços, pela
+		identificação, controle, manutenção e verificação das versões de todos os
+		itens de configuração (IC) existentes.
+	
+		- Item de configuração: Componente de uma infra-estrutura - ou um item,
+		tal como uma requisição de mudança, associado infra-estrutura - que está
+		(ou tem que estar) sob controle do gerenciamento de configuração.
+	
+	GERENCIAMENTO DE INCIDENTES:
+	
+		- Restaurar as operações normais do serviço o mais rápido possível.
+		- Minimizar os impactos adversos para o negócio.
+		- Garantir a disponibilidade e os melhores níveis de serviços possíveis.
+		
+		-DETECÇÃO E REGISTRO
+		-CLASSIFICAÇÃO E SUPORTE INICIAL
+		-INVESTIGAÇÃO E DIAGNÓSTICO
+		-RESOLUÇÃO E RECUPERAÇÃO
+		-FECHAMENTO
+		
+	GERENCIAMENTO DE PROBLEMAS:
+	
+		-Prevenir e minimizar o efeito adverso dos incidentes e problemas no negócio,
+		causados por erros na infra-estrutura de TI, e prevenir a recorrência dos mesmos.
+	
+	GERENCIAMENTO DE MUDANÇAS:
+	
+		- Assegurar que métodos e procedimentos padronizados são usados para
+		garantir a eficiência no tratamento de todas as mudanças na infra-estrutura de
+		TI, de maneira minimizar o impacto adverso na qualidade dos serviços,
+		decorrentes de incidentes relacionados a tais mudanças.
+		
+		-REGISTRAR E FILTRAR
+		-PRIORIZAR
+		-CATEGORIZAÇÃO(IMPACTO)
+		-REUNIÕES
+		-AVALIAR IMPACTOS
+		-APROVAR
+		-AGENDAR
+		-CONSTRUIR, TESTAR, IMPLEMENTAR
+		-REVER
+		
+	GERENCIAMENTO DE LIBERAÇÕES:
+	
+		Assegurar que todos os aspectos, técnicos e não-técnicos, de uma mudança
+		sejam considerados conjuntamente, utilizando-se procedimentos
+		padronizados e garantido a proteção do ambiente de produção.	
+		
+		- Liberação:
+		 	Um grupo de mudanças autorizadas em um serviço de TI. Ex: Liberação A = Mudança1, 2, 3, 4....
+		 	
+		CATEGORIAS DE LIBERAÇÃO:
+			- Maior importância:
+				Normalmente contendo grande número de novas funcionalidade. Uma liberação
+				maior usualmente sucede a todas liberações anteriores (Menor e emergencial).
+			- Menor importância:
+				Normalmente contendo pequenas melhorias e atualizações. Usualmente sucede
+				uma implementação de uma liberação emergencial.
+			- Emergencial:
+				Normalmente contendo correções de um pequeno número de erros conhecidos.
+
+	

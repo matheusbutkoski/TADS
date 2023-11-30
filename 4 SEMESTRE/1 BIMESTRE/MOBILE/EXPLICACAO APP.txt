@@ -1,0 +1,8 @@
+	Esse é um app para gerenciamento de investimentos, onde o usuario ira inserir quando comprou seus ativos
+e a intenção é salvar e atualizando conforme a movimentação dos preços.
+	A parte de Gerenciar Ativos ainda possui alguns erros, pois nao entendi muito bem ainda como funcionam
+as rotas do flutter, assim como o gerenciamento de estado. Utilizei uma requisição de api para mostrar alguns
+ativos já.
+	Estou enviando o apk e o projeto inteiro.
+
+- MATHEUS HENRIQUE BUTKOSKI SILVA

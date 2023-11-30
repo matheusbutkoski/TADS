@@ -1,0 +1,4 @@
+o primeiro erro encontrado foi no metodo cartaoValido, em que os numeros de cartao com mais e menos
+de 16 digitos estavam sendo aceitos pelo programa. Para resolver isso bastou mudar o return para false no "else"
+da verificacao final da soma, além disso, foi necessario remover o = da verificacao de cartao com mais de 16
+digitos, pois dessa forma os numeros com 16 digitos serao aceitos.
